@@ -27,9 +27,8 @@
 
 - Pre-procesamiento
 - PCA
-- Naive Bayes
 - Clasificadores
 - Voting Classifier
 - Límites de Decisión
 
-## [Video Explicativo](https://github.com/MrDanielG/Proyecto-Mineria-de-Datos/blob/master/Minería%20de%20Datos%20Reporte%20Final.ipynb)
+## [Video Explicativo](https://youtu.be/pRE5J7CnXbw)
