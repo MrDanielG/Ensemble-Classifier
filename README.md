@@ -21,7 +21,7 @@
 - KNN
 - Ensamble de Clasificadores
 
-## [Notebook Reporte Final](https://github.com/MrDanielG/Proyecto-Mineria-de-Datos/blob/master/Entregable%203%20%26%204.ipynb)
+## [Notebook Reporte Final](https://github.com/MrDanielG/Proyecto-Mineria-de-Datos/blob/master/Minería%20de%20Datos%20Reporte%20Final.ipynb)
 
 **Incluye:**
 
@@ -31,3 +31,5 @@
 - Clasificadores
 - Voting Classifier
 - Límites de Decisión
+
+## [Video Explicativo](https://github.com/MrDanielG/Proyecto-Mineria-de-Datos/blob/master/Minería%20de%20Datos%20Reporte%20Final.ipynb)
