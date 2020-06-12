@@ -90,7 +90,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[2]:
 
 
-info = 'Slice409.txt'
+info = 'cre300.txt'
 
 with open(info, "r") as archivo:
     numElementos = int(archivo.readline())
@@ -240,8 +240,6 @@ bayes_pred = clf_bayes.predict(X_test)
 print(classification_report(y_test, bayes_pred))
 
 
-# Podemos notar como en el caso de el clasificador de bayes su comportamiento es bastante inusual, al grado de no poder determinar la clase de diversos elementos. Esto se ve reflejado en la matriz de confusión
-
 # ### Matríz de Confusión 
 
 # In[15]:
@@ -390,8 +388,6 @@ print(accuracy_score(y_test, knn_pred))
 
 
 # Podemos notar que de los tres clasificadores seleccionados KNN es el que normalmente obtiene un mayor grado de precisión para determinar la clase de los elementos en nuestro dataset, esto es aún más evidente si observamos la matriz de confusión, donde únicamente comete unos cuántos errores, por lo que podemos observar la eficiencia de este algoritmo en el caso particular don de K equivale al valor ingresado por el usuario.
-
-# Tras haber experimentado con los distintos tipos de clasificadores se pudo observar que estos varían en su desempeño y por en de en su precisión para determinar la clase de algún elemento, esto nos permite deducir el por que de los métodos de ensamble, al utilizar diferentes algoritmos de clasificación en conjunto nos permite obtener un mejor desempeño en la predicción, algo que sería distinto de manera individual.
 
 # # Ensamble de Clasificadores
 
